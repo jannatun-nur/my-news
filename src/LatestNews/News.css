@@ -1,0 +1,36 @@
+.swiper {
+    width: 500px;
+    height: 300px;
+
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 600px;
+    height: 300px;
+
+  }
+  @media (max-width: 768px) {
+    .swiper {
+      height: 250px;
+      width:200px
+    }
+  
+    .swiper-slide img {
+      height: 250px;
+      width:100px
+    }
+  }
+  
+  /* For devices with width 320px and below (small mobiles) */
+  @media (max-width: 320px) {
+    .swiper {
+      height: 180px;
+      width:200px
+    }
+  
+    .swiper-slide img {
+      height: 180px;
+      width:200px
+    }
+  }

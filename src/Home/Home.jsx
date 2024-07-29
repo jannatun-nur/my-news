@@ -1,10 +1,11 @@
-import Footer from "../Footer/Footer";
+
+import LatestNews from "../LatestNews/LatestNews";
 
 
 const Home = () => {
     return (
         <div>
-            <Footer/>
+            <LatestNews/>
         </div>
     );
 };
