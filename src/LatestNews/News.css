@@ -10,6 +10,7 @@
     height: 300px;
 
   }
+  
   @media (max-width: 768px) {
     .swiper {
       height: 250px;
@@ -26,11 +27,11 @@
   @media (max-width: 320px) {
     .swiper {
       height: 180px;
-      width:200px
+      width:300px
     }
   
     .swiper-slide img {
       height: 180px;
-      width:200px
+      width:300px
     }
   }

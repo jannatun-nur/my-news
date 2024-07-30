@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "source":"bbc news",
+        "post":"12 May, 2024",
+        "button":"Go for details",
+        "title": "Sunny Beach",
+        "image_url": "https://example.com/images/sunny_beach.jpg",
+        "description": "A beautiful sunny beach with golden sands and crystal-clear waters, perfect for a relaxing day."
+    },
+    {
+        "id": 2,
+        "source":"bbc news",
+        "post":"12 May, 2024",
+        "button":"Go for details",
+        "title": "Mountain Hike",
+        "image_url": "https://example.com/images/mountain_hike.jpg",
+        "description": "A scenic mountain trail offering breathtaking views of the surrounding landscape and fresh alpine air."
+    },
+    {
+        "id": 3,
+        "source":"bbc news",
+        "post":"12 May, 2024",
+        "button":"Go for details",
+        "title": "City Skyline",
+        "image_url": "https://example.com/images/city_skyline.jpg",
+        "description": "An impressive city skyline at night, illuminated by thousands of lights and showcasing modern architecture."
+    },
+    {
+        "id": 4,
+        "source":"bbc news",
+        "post":"12 May, 2024",
+        "button":"Go for details",
+        "title": "Forest Path",
+        "image_url": "https://example.com/images/forest_path.jpg",
+        "description": "A tranquil forest path surrounded by tall trees and lush greenery, ideal for a peaceful walk."
+    },
+    {
+        "id": 5,
+        "source":"bbc news",
+        "post":"12 May, 2024",
+        "button":"Go for details",
+        "title": "Desert Dunes",
+        "image_url": "https://example.com/images/desert_dunes.jpg",
+        "description": "Vast desert dunes with rolling hills of sand under a clear blue sky, perfect for an adventurous expedition."
+    }
+]

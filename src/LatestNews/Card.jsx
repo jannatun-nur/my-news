@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-import video from '../../public/rest.gif'
 import './News.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -9,30 +7,9 @@ import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
 import { EffectCube, Pagination } from 'swiper/modules';
 
-
-const LatestNews = () => {
-
-  const [news, setNews] = useState([])
-
-  useEffect( ()=>{
-    fetch('latest.json')
-    .then(res => res.json())
-    .then(data => setNews(data))
-  },[])
-
-
-    return (
-        <div>
-        
-            <div className='columns-1 md:flex md:justify-around lg:flex lg:justify-around lg:mt-24'>
-                <section>
-                <img className='lg:w-4/12 md:w-8/12 w-5/12' src={video}  />
-                </section>
-
-                <section>
-                <p  className='lg:mb-5 lg:text-4xl font-semibold'>Today's latest news</p>
-                
-                <div>
+const Card = ({ newses }) => {
+  return (
+    <div>
       <Swiper
         effect={'cube'}
         grabCursor={true}
@@ -46,9 +23,9 @@ const LatestNews = () => {
         modules={[EffectCube, Pagination]}
         className="mySwiper"
       >
-        {news.map((news, index) => (
+        {newses.map((news, index) => (
           <SwiperSlide key={index}>
-            <div className="news-card bg-green-300">
+            <div className="news-card">
               <img src={news.imageUrl} alt={news.title} />
               <div className="news-content">
                 <h2>{news.title}</h2>
@@ -60,10 +37,7 @@ const LatestNews = () => {
         ))}
       </Swiper>
     </div>
-                </section>
-            </div>
-        </div>
-    );
+  );
 };
 
-export default LatestNews;
+export default Card;
