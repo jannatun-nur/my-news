@@ -1,11 +1,12 @@
+import Category from "../Category/Category";
 
-import LatestNews from "../LatestNews/LatestNews";
+
 
 
 const Home = () => {
     return (
         <div>
-            <LatestNews/>
+            <Category/>
         </div>
     );
 };
